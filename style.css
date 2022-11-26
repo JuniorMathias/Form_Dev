@@ -13,13 +13,39 @@ body {
     text-align: center;
     font-size: 35px;
     color: black;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    height: 8vh;
+
 }
 .links a{
     color: black;
     text-decoration: none;
     font-size: 20px;
     text-align: left;
+    display: inline-block;
+    padding: 2px;
+    
 }
+
+a:hover{
+    opacity: 0.7;
+    color: #407094;
+}
+
+.img-logo{
+    color: #407094;
+    width: 13%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
 /*---------- parte  UENDEL ------ */
 #conteudo {
     background-color: #407094;
