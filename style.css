@@ -25,29 +25,42 @@ body {
     background-color: #407094;
     color: aliceblue;
     height: 1000px;
+    
 }
 .formulario{
     padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
 }
 .lado1{
     width: 500px;
     height: 700px;
     float: left;
-    margin-left: 200px;
+    margin-left: 150px;
     text-align: center;
 
 }
-
 .lado2{
-    border-style: solid;
-    border-width: 5px;
-    border-color: #232628;
     float: right;
     width: 500px;
     height: 700px;
+    margin-right: 150px;
+    background-color: #232628;
+    border-radius: 20px;
+    text-align: center;
     
-    margin-right: 200px;
 }
+.cabecalho h2 {
+    padding-top: 15px;
+    color: #a1998a;
+    
+}
+.cabecalho p {
+    padding-top: 10px;
+    color: #a1998a;
+   
+}
+
 
 /*---------- parte  THIAGO ------ */
 #rodape {

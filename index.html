@@ -19,6 +19,8 @@
     <!--parte de UENDEL-->
     <div id="conteudo">
       <div class="formulario">
+
+
         <div class="lado1">
             <h2>Seja bem Vindo(a)!</h2>
             <p style="padding-top: 5px;">Dê os Seus primeiros passos conosco!</p>
@@ -32,7 +34,46 @@
 
 
         <div class="lado2">
-            <h2 >LADO2</h2>
+            <form>
+              <div class="cabecalho">
+                <h2>Preencha os campos abaixo: </h2>
+                <p>realize o seu cadastro com Segurança!</p>
+              </div>
+              <section class="secao">
+                <div class="nome" style="display: block; padding-top: 40px;">
+                  <label for="nome" style="margin-right: 395px">Nome*:</label>
+                  <input style="width: 90%; height: 36px; border-radius: 5px;" type="text" id="nome" name="nome" placeholder="Preencha seu nome completo">
+                </div>
+
+                <div class="email" style="display: block; padding-top: 20px;">
+                  <label for="enail" style="margin-right: 395px">Email*:</label>
+                  <input style="width: 90%; height: 36px; border-radius: 5px;" type="text" id="email" name="email" placeholder="Preencha seu E-mail">
+                </div>
+
+                <div class="cidade" style="display: block; padding-top: 20px;">
+                  <label for="cidade" style="margin-right: 390px">Cidade*:</label>
+                  <select style="width: 90%; height: 36px; border-radius: 5px;" id="nome" name="nome" placeholder="Preencha seu nome completo">
+                    <option>Fortaleza-CE</option>
+                    <option>São Paulo-SP</option>
+                    <option>Rio de Janeiro-RJ</option>
+                  </select>
+                </div>
+
+
+
+                <div class="Mensagem" style="padding-top: 20px;">
+                  <p>Deseja receber atualizações sobre nossos Projetos*?</p>
+                  <div class="sim" style="padding-right: 390px; padding-top: 20px;">
+                    <input type="checkbox" id="sim" name="sim" value="Sim">
+                    <label for="sim">Sim</label>
+                  </div>
+                  <div class="nao" style="padding-right: 390px; padding-top: 20px;">
+                    <input  type="checkbox" id="não" name="nao" value="Nao">
+                    <label  for="sim">Não</label>
+                  </div>
+                </div>
+              </section>
+            </form>
         </div>
       </div>
     </div>
