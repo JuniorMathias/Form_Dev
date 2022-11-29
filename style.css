@@ -61,6 +61,15 @@ body {
    
 }
 
+.botao-enviar input{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #cc7a00;
+    font-size: 30px;
+    cursor: pointer;
+}
 
 /*---------- parte  THIAGO ------ */
 #rodape {
