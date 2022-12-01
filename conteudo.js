@@ -3,11 +3,7 @@ let email = document.getElementById('email');
 
 
 function cadastrar(){
-    if(nome.value.length == 0){
-        alert("Preencha o campo NOME");
-    }else if(email.value.length == 0){
-        alert("Preencha o campo EMAIL");
-    }else{
+    if(nome.value.length != 0 && email.value.length != 0 ){
         alert("Cadastro realizado com sucesso!!");
-    }    
+    } 
 }

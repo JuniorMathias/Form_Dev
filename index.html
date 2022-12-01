@@ -41,32 +41,30 @@
                 <p>realize o seu cadastro com Segurança!</p>
               </div>
               <section class="secao">
+              
                 <div class="nome" style="display: block; padding-top: 40px;">
-                  <label for="nome" style="margin-right: 395px">Nome*:</label>
-                  <input style="width: 90%; height: 36px; border-radius: 5px;" type="text" id="nome" name="nome" placeholder="Preencha seu nome completo">
+                  <label for="nome" class="labels">Nome*:</label>
+                  <input class="inputs"  type="text" id="nome" name="nome" placeholder="Preencha seu nome completo" required="required">
                 </div>
 
                 <div class="email" style="display: block; padding-top: 20px;">
-                  <label for="enail" style="margin-right: 395px">Email*:</label>
-                  <input style="width: 90%; height: 36px; border-radius: 5px;" type="email" id="email" name="email" placeholder="Preencha seu E-mail"
-                  required>
+                  <label for="enail" class="labels">Email*:</label>
+                  <input class="inputs" type="text" id="email" name="email" placeholder="Preencha seu E-mail" required="required">
                 </div>
 
                 <div class="cidade" style="display: block; padding-top: 20px;">
-                  <label for="cidade" style="margin-right: 390px">Cidade*:</label>
+                  <label for="cidade" class="labels">Cidade*:</label>
                   <select style="width: 90%; height: 36px; border-radius: 5px;">
                     <option>Fortaleza-CE</option>
                     <option>São Paulo-SP</option>
                     <option>Rio de Janeiro-RJ</option>
                   </select>
                 </div>
-
-
-
+              
                 <div class="Mensagem" style="padding-top: 20px;">
                   <p>Deseja receber atualizações sobre nossos Projetos*?</p>
                   <div class="sim" style="padding-right: 390px; padding-top: 20px;">
-                    <input type="checkbox" id="sim" name="sim" value="Sim">
+                    <input type="checkbox" id="sim" name="sim" value="Sim" >
                     <label for="sim">Sim</label>
                   </div>
                   <div class="nao" style="padding-right: 390px; padding-top: 20px;">
@@ -74,7 +72,7 @@
                     <label  for="sim">Não</label>
                   </div>
                   <div class="botao-enviar">
-                    <input type="button" onclick="cadastrar()" value="Cadastrar">
+                    <input type="submit" onclick="cadastrar()" value="Cadastrar">
                   </div>
                   
                 </div>

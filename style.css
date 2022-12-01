@@ -81,6 +81,15 @@ body {
     color: black;
     text-align: center;
 }
+.inputs{
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px;
+}
+
+.labels{
+    margin-right: 395px
+}
 
 
 
@@ -91,4 +100,5 @@ body {
       width: 100%;
       height: auto;
     }
+
   }
