@@ -70,7 +70,25 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
-
+.nome{
+    display: block; 
+    padding-top: 40px;
+}
+.email,
+.cidade{
+    display: block; 
+    padding-top: 20px;
+}
+.sim,
+.nao{
+    padding-right: 390px; 
+    padding-top: 20px;
+}
+select{
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px;
+}
 /*---------- parte  THIAGO ------ */
 #rodape {
     position: relative;
