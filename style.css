@@ -16,7 +16,7 @@ body {
     justify-content: space-around;
     display: flex;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family:Cambria, Georgia, serif;
     height: 8vh;
 
 }
@@ -50,11 +50,12 @@ a:hover{
 #conteudo {
     background-color: #407094;
     color: aliceblue;
-    height: 1000px;
+    height: 100%;
     
 }
 .formulario{
     padding-top: 70px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: space-around;
 }
