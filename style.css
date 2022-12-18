@@ -49,10 +49,72 @@ a:hover{
 /*---------- parte  UENDEL ------ */
 #conteudo {
     background-color: #407094;
-    padding: 25%;
     color: aliceblue;
+    height: 1000px;
+    
+}
+.formulario{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+.lado1{
+    width: 500px;
+    height: 700px;
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+
+}
+.lado2{
+    float: right;
+    width: 500px;
+    height: 700px;
+    margin-right: 150px;
+    background-color: #232628;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.cabecalho h2 {
+    padding-top: 15px;
+    color: #a1998a;
+    
+}
+.cabecalho p {
+    padding-top: 10px;
+    color: #a1998a;
+   
 }
 
+.botao-enviar input{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    background-color: #cc7a00;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nome{
+    display: block; 
+    padding-top: 40px;
+}
+.email,
+.cidade{
+    display: block; 
+    padding-top: 20px;
+}
+.sim,
+.nao{
+    padding-right: 390px; 
+    padding-top: 20px;
+}
+select{
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px;
+}
 /*---------- parte  THIAGO ------ */
 #rodape {
     position: relative;
@@ -62,6 +124,15 @@ a:hover{
     width: 100%;
     color: black;
     text-align: center;
+}
+.inputs{
+    width: 90%; 
+    height: 36px; 
+    border-radius: 5px;
+}
+
+.labels{
+    margin-right: 395px
 }
 
 
@@ -73,4 +144,5 @@ a:hover{
       width: 100%;
       height: auto;
     }
+
   }
