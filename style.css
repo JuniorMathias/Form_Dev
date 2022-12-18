@@ -33,6 +33,7 @@ body {
 a:hover{
     opacity: 0.7;
     color: #407094;
+    transition: 0.3s;
 }
 
 .img-logo{
