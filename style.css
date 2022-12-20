@@ -124,16 +124,6 @@ select{
     height: 36px; 
     border-radius: 5px;
 }
-/*---------- parte  THIAGO ------ */
-#rodape {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    padding: 5%;
-    width: 100%;
-    color: black;
-    text-align: center;
-}
 .inputs{
     width: 90%; 
     height: 36px; 
@@ -143,6 +133,26 @@ select{
 .labels{
     margin-right: 395px
 }
+/*-----
+----- parte  THIAGO ------ */
+#rodape {
+    left: 0;
+    bottom: 0;
+    padding: 5%;
+    color: black;
+	display: flex;
+    width: 100%;
+   
+}
+.img{
+    justify-content: center;
+    float: center;
+  }
+  
+  img{
+    width: 100px;
+  }
+
 
 
 
