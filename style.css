@@ -9,16 +9,15 @@ body {
 }
 /*---------- parte JUAN  ------ */
 #cabecalho {
-    padding: 1.5em;
+    padding: 0.5em;
     text-align: center;
     font-size: 35px;
     color: black;
+    background-color: #ddd;
     justify-content: space-around;
     display: flex;
     align-items: center;
     font-family:Cambria, Georgia, serif;
-    height: 8vh;
-
 }
 .links a{
     color: black;
@@ -26,8 +25,6 @@ body {
     font-size: 20px;
     text-align: left;
     display: inline-block;
-    padding: 2px;
-    
 }
 
 a:hover{
@@ -38,13 +35,12 @@ a:hover{
 
 .img-logo{
     color: #407094;
-    width: 13%;
     position: relative;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 1.6rem;
+    padding-top: 1.0rem;
     opacity: 0.8;
+    border-bottom: 3px solid #232628;
 }
 
 
@@ -74,6 +70,8 @@ a:hover{
 .lado1 img {
     border-radius: 120px;
     margin-top: 30px;
+    height: 300px;
+    width: 300px;
 }
 .lado2{
     float: right;
@@ -98,7 +96,7 @@ a:hover{
 
 .botao-enviar input{
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 70px;
     width: 300px;
     height: 50px;
     background-color: #cc7a00;
@@ -114,6 +112,7 @@ a:hover{
 .cidade{
     display: block; 
     padding-top: 20px;
+    cursor: pointer;
 }
 .sim,
 .nao{
@@ -132,7 +131,8 @@ select{
 }
 
 .labels{
-    margin-right: 395px
+    margin-right: 395px;
+    cursor: pointer;
 }
 /*-----
 ----- parte  THIAGO ------ */
@@ -144,6 +144,7 @@ select{
     width: 100%;
     color: black;
     text-align: center;
+    background-color: #ddd;
 }
 
 img {
